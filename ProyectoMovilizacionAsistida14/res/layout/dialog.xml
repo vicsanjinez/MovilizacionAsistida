@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" 
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:id="@+id/instructions_view" >
+
+<TextView   android:id="@+id/TextView01" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="">
+    
+</TextView>
+<TextView   android:id="@+id/TextView02" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="">
+    
+</TextView>
+<TextView   android:id="@+id/TextView03" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="">
+    
+</TextView>
+<TextView   android:id="@+id/TextView04" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="">
+    
+</TextView>
+<TextView   android:id="@+id/TextView05" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="">
+    
+</TextView>
+<TextView   android:id="@+id/TextView06" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="">
+    
+</TextView>
+<TextView   android:id="@+id/TextView07" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="">
+    
+</TextView>
+
+</LinearLayout>
+</ScrollView>

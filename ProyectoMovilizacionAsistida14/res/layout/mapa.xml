@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/bh2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hablar" />
+
+                <Button
+                    android:id="@+id/btra1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Trazar Ruta" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                         <com.google.android.maps.MapView
+                 android:id="@+id/mapView"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:enabled="true"
+                 android:clickable="true"
+                 android:apiKey="0yPuziwa6P5Dcd0MxKdjXi7rO1yLUJBcpnMMaCA"
+                 />
+
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:scrollbars="vertical" 
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:id="@+id/instructions_view2" >
+    
+<TextView
+android:id="@+id/t2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+>
+</TextView>
+    
+<TableLayout
+android:id="@+id/widget312"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_alignParentBottom="true"
+>
+
+<TableRow
+    android:id="@+id/widget352"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/bsalirsi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SI" >
+    </Button>
+
+    <Button
+        android:id="@+id/bsalirno"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="NO" >
+    </Button>
+</TableRow>
+</TableLayout>
+</LinearLayout>
